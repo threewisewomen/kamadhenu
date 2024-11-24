@@ -7,10 +7,51 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
+.pnp
+.pnp.js
+
+# Build outputs
 dist
-dist-ssr
-*.local
+build
+out
+.tmp
+.cache
+.prod
+.prod-ssr
+
+# Tailwind CSS
+.tailwind
+
+# Vite
+.vite
+
+# Coverage
+coverage
+*.lcov
+
+# Jest
+jest-html-reporters-*.json
+test-results.xml
+
+# Temporary files
+tmp
+temp
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Debugging files
+*.stackdump
+.vscode-test
+
+# Environment Variables
+.env
+.env.*
+!.env.example
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +63,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# System files
+Thumbs.db
+
+# Three.js cached assets
+/assets/cache/
+
+# Lockfiles (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

@@ -1,8 +1,15 @@
 import {
+  braincomputing,
+  hexagon,
+  aeroponic,
+  desaline,
+  exoskeleton,
+  solarpanel,
+  healing,
+  levitation,
     mobile,
     backend,
     creator,
-    web,
     javascript,
     typescript,
     html,
@@ -42,20 +49,36 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Bio-Integrated Brain-Computer Interface Enclosures",
+      icon: braincomputing,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Modular Hexagonal Wind Turbines",
+      icon: hexagon,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Self-Sustaining Aeroponic Agriculture Pods",
+      icon: aeroponic,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Printable Water Filtration and Desalination Systems",
+      icon: desaline,
+    },
+    {
+      title: "Lightweight Exoskeletons for Labor Assistance",
+      icon: exoskeleton,
+    },
+    {
+      title: "Solar Panel Printing for Decentralized Energy",
+      icon: solarpanel,
+    },
+    {
+      title: "3D-Printed Electromagnetic Therapy Modules",
+      icon: healing,
+    },
+    {
+      title: "Magnetic Levitation Energy Systems",
+      icon: levitation,
     },
   ];
   

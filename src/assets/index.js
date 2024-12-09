@@ -33,8 +33,26 @@ import tripguide from "./tripguide.png";
 import solarpanel from "./solarpanel.png"
 import healing from "./healing.png"
 import levitation from "./levitation.png"
+import fdm from "./fdm.png";
+import multimaterial from "./multimaterial.png"
+import sla from "./sla.png";
+import metal from "./metal.png"
+import bioprint from "./bioprint.png"
+import aep from "./aep.png"
+import ses from "./ses.png"
+import archi from "./archi.png"
+import organs from "./organ.png"
 
 export {
+  organs,
+  archi,
+  ses,
+  aep,
+  bioprint,
+  metal,
+  sla,
+  multimaterial,
+  fdm,
   braincomputing,
   hexagon,
   aeroponic,
